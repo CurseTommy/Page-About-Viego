@@ -267,7 +267,7 @@ body {
 }
 
 .makersignature::after {
-  content: " \00a9";
+  content: " \00a9 2021";
   font-size: 18px;
 }
 

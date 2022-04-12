@@ -1,0 +1,316 @@
+html {
+  scroll-behavior: smooth;
+  cursor: default;
+}
+
+body {
+  background-image: url(../images/Viego_0.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+}
+
+.gap {
+  width: 1000px;
+  height: 20px;
+  clear: both;
+}
+
+#container {
+  position: relative;
+  margin: auto auto auto auto;
+  width: 1000px;
+  height: 1000px;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(3px);
+  box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.8);
+  color: rgb(209, 209, 209);
+}
+
+#signature {
+  padding: 10px;
+  width: 1000px;
+  float: left;
+}
+
+.signature {
+  font-size: 48px;
+  text-align: left;
+  margin-left: 210px;
+  font-weight: bold;
+  font-family: "Comfortaa", cursive;
+}
+
+.clock {
+  margin-top: -45px;
+  margin-right: 150px;
+  font-size: 32px;
+  float: right;
+}
+
+#content {
+  width: 395px;
+  float: right;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  background: rgba(0, 0, 0, 0.5);
+  margin-right: 10px;
+}
+
+.contentdesc {
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#blocks {
+  position: relative;
+  width: 590px;
+  float: left;
+}
+
+.title {
+  text-align: center;
+
+  font-family: cursive;
+  font-size: 18px;
+}
+
+.titlecenterinblocks {
+  position: relative;
+  text-align: center;
+  font-family: cursive;
+  font-size: 32px;
+  left: 22%;
+  top: 30%;
+  width: 130px;
+  padding: 5px;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+}
+
+.title::after {
+  content: ":";
+}
+
+.icon-emo-shoot {
+  position: relative;
+  top: 20px;
+  padding-left: 50px;
+  font-size: 72px;
+}
+
+.icon-crown {
+  position: relative;
+  padding-left: 80px;
+  top: 20px;
+  font-size: 72px;
+}
+
+.block1 {
+  position: relative;
+  float: left;
+  margin: 10px 10px 10px 10px;
+  border: 2px solid black;
+  width: 260px;
+  height: 160px;
+}
+
+.block2 {
+  position: relative;
+  float: right;
+  margin: 10px 10px 10px 10px;
+  border: 2px solid black;
+  width: 260px;
+  height: 160px;
+}
+
+.block3 {
+  position: relative;
+  float: left;
+  margin: 10px 10px 10px 10px;
+  border: 2px solid black;
+  width: 260px;
+  height: 160px;
+}
+
+.block4 {
+  position: relative;
+  float: right;
+  margin: 10px 10px 10px 10px;
+  width: 282px;
+  height: 160px;
+}
+
+.inblock {
+  position: absolute;
+  color: rgb(197, 197, 197);
+  display: block;
+  width: 260px;
+  height: 160px;
+  text-decoration: none;
+  margin: auto auto auto auto;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(69, 230, 125, 0.5);
+}
+
+.inblock:hover {
+  color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px 5px rgba(68, 229, 124, 0.5);
+  border: 2px solid rgb(58, 212, 153);
+  position: relative;
+  width: 260px;
+  height: 160px;
+  top: -2px;
+  left: -2px;
+  margin: auto;
+  background-color: rgba(58, 212, 153, 0.5);
+}
+
+#cytat {
+  position: relative;
+  float: left;
+  width: 260px;
+  height: 160px;
+  border: 2px solid transparent;
+  margin-left: 10px;
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.cytattxt {
+  margin: 0;
+  position: absolute;
+  color: white;
+  font-size: 32px;
+  top: 30%;
+  left: 10%;
+}
+
+#socials {
+  position: relative;
+  margin-right: 10px;
+  width: 700px;
+  height: 160px;
+  display: flex;
+  border-top: 2px dotted white;
+  border-right: 2px dotted white;
+  border-bottom: 2px solid rgb(58, 212, 153);
+  border-left: 2px solid rgb(58, 212, 153);
+  float: right;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.sociallink {
+  position: relative;
+  display: inline;
+  border: 1px solid white;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  margin: auto;
+}
+
+.sociallink:hover {
+  position: relative;
+  display: inline;
+  border: 2px solid white;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  margin: auto;
+  box-shadow: 0px 0px 5px 2px;
+  font-size: 52px;
+}
+
+.insocial {
+  position: relative;
+  font-size: 48px;
+  top: 25%;
+}
+
+.linktosicials {
+  color: rgb(209, 209, 209);
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 120px;
+  margin: auto auto auto auto;
+  top: 0px;
+  left: 0px;
+}
+
+#maker {
+  margin-top: 20px;
+  margin-right: 20px;
+  position: relative;
+  float: right;
+  right: 27%;
+  width: 280px;
+  height: auto;
+  border-bottom: 3px solid rgb(58, 212, 153);
+}
+
+.makersignature {
+  font-size: 32px;
+  text-align: center;
+  padding: 5px;
+  background: linear-gradient(to right, rgb(58, 212, 153), white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.makersignature::after {
+  content: " \00a9";
+  font-size: 18px;
+}
+
+.viegoanimations {
+  position: absolute;
+  height: 110%;
+  animation: viego 4s infinite;
+}
+
+@keyframes viego {
+  25% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(130px);
+  }
+  75% {
+    transform: translateX(130px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+#source {
+  position: absolute;
+  margin-right: 10px;
+  border: 1px solid rgba(58, 212, 153);
+  background-color: rgba(39, 128, 94, 0.5);
+  width: 200px;
+  bottom: 0;
+  right: -10px;
+}
+
+.src {
+  color: white;
+}
+
+.srclink1 {
+  text-align: center;
+  color: white;
+}
+
+.srclink1:hover {
+  font-size: 18px;
+}

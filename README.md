@@ -1,3 +1,3 @@
-# Page-About-Viego
-This page's about Viego, one of the multiple champions in game "League Of Legends"
-Hope you like this page :)
+# Strona o Viego
+Ta strona jest o Viego, jednym z wielu bohaterów w grze "League Of Legends"
+Mam nadzieję, że strona się spodoba :)
